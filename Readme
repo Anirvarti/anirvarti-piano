@@ -34,7 +34,7 @@ Because this app utilizes Service Workers (for PWA capabilities) and AudioWorkle
 
 Clone this repository:
 
-git clone [https://github.com/yourusername/anirvarti-piano.git](https://github.com/yourusername/anirvarti-piano.git)
+git clone https://github.com/Anirvarti/anirvarti-piano
 
 
 Open the directory in VS Code.
