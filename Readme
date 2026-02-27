@@ -1,0 +1,50 @@
+Anirvarti Satya -🎹
+
+A professional-grade, physical modeling piano synthesizer built entirely using web technologies. No external audio samples are used; the sound is mathematically generated in real-time using the Web Audio API to emulate the acoustic properties of a Steinway Model D concert grand piano.
+
+✨ Features
+
+Physical Modeling Engine: Additive synthesis with dynamic low-pass filtering, inharmonicity simulation, and hammer/chiff noise generation.
+
+Full 88-Key Support: Mathematically calculated frequencies from A0 to C8 with dynamic octave shifting.
+
+Web MIDI API Integration: Plug and play your hardware USB MIDI keyboard with full velocity sensitivity and sustain pedal support.
+
+AI Voicing Engineer: Integrated with the Google Gemini API. Type a natural language prompt (e.g., "Make it sound like a dusty saloon piano") and the AI will automatically twist the physical knobs to create the perfect synth patch.
+
+Recording Studio: Record your performances directly from the audio bus and export them instantly as high-quality .webm audio files.
+
+Progressive Web App (PWA): Fully installable as a native standalone app on iOS, Android, macOS, and Windows. Works offline.
+
+Real-time Visualizer: Dynamic canvas-based oscilloscope that visualizes the audio waveforms in real time.
+
+🚀 Tech Stack
+
+Frontend: Vanilla HTML, CSS, JavaScript (No frameworks)
+
+Audio: Web Audio API (Oscillators, DynamicsCompressor, Convolver, BiquadFilter)
+
+Hardware: Web MIDI API
+
+AI: Google Gemini 2.5 Flash API
+
+🛠️ How to Run Locally
+
+Because this app utilizes Service Workers (for PWA capabilities) and AudioWorklets, it must be run on a local web server (opening the file directly via file:// will block some features).
+
+Clone this repository:
+
+git clone [https://github.com/yourusername/anirvarti-piano.git](https://github.com/yourusername/anirvarti-piano.git)
+
+
+Open the directory in VS Code.
+
+Install the Live Server extension.
+
+Right-click index.html and select Open with Live Server.
+
+📱 Installing on Mobile
+
+Visit the live hosted URL on your Android or iOS device. Tap the browser menu and select "Add to Home Screen" or "Install App". The synthesizer will install as a full-screen native application.
+
+Created by Satya Prakash
